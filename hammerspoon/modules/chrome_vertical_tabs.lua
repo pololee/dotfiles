@@ -68,8 +68,8 @@ local function findSidebarButton(element, depth)
 	end
 
 	if element:attributeValue("AXRole") == "AXButton" then
-		local title = string.lower(tostring(element:attributeValue("AXTitle") or ""))
-		local description = string.lower(tostring(element:attributeValue("AXDescription") or ""))
+		local title = string.lower(tostring(element:attributeValue("AXTitle") or "")):gsub("%s*%([^()]*%)%s*$", "")
+		local description = string.lower(tostring(element:attributeValue("AXDescription") or "")):gsub("%s*%([^()]*%)%s*$", "")
 
 		for _, label in ipairs(state.config.sidebarLabels) do
 			if title == label or description == label then
