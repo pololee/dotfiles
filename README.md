@@ -125,7 +125,7 @@ edits apply on save with no reload step.
 
 | Chord | Action |
 | --- | --- |
-| `hyper` + `o` / `s` / `;` / `'` / `i` | Chrome / Slack / Cursor / VS Code / Ghostty |
+| `hyper` + `o` / `s` / `;` / `'` / `i` | Chrome / Slack / Cursor / VS Code / Rex Beta |
 | `hyper` + `h` | Window hints (vimperator style) |
 | `hyper` + `d` | Ring the mouse pointer for 3s |
 | `cmd` + `s` in Chrome | Toggle the vertical tab sidebar via the Accessibility API |
