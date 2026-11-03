@@ -6,7 +6,7 @@ local applications = {
 	{ key = "o", name = "Google Chrome" },
 	{ key = "s", name = "ChatGPT" },
 	{ key = ";", name = "Visual Studio Code" },
-	{ key = "i", name = "Ghostty" },
+	{ key = "i", name = "Rex Beta" },
 }
 
 function M.start(hyper)
